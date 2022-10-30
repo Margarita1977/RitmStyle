@@ -359,6 +359,127 @@
 /* price  */
 /* blok_maps  */
 
-.maps {
-    border-radius: 40px;
+.blok_maps {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+
+.blok_map {
+    background: #018ABE;
+    border-radius: 10px;  
+    width: 392px;
+    margin-bottom: 30px;
+}
+
+.blok_map_niz {
+    background: #018ABE;
+    border-radius: 10px;  
+    width: 392px;
+}
+
+.h4_map {
+    background: none;
+    font-family: 'ElMessiri-bold';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    padding: 35px 0px 21px 45px;
+}
+
+.p_tochka_map {
+    position: relative;
+    background: none;
+    font-family: 'ProximaNova';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+    padding: 0px 0px 21px 85px;
+}
+
+.p_tochka_map::after {
+    content: '';
+    position: absolute;
+    background: url(../img/tochka.svg) no-repeat;
+    top:0;
+    left: 45px;
+    width: 20px;
+    height: 20px;
+}
+
+.p_metro {
+    position: relative;
+    background: none;
+    font-family: 'ProximaNova';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+    padding: 0px 0px 21px 85px;
+}
+
+.p_metro::after {
+    content: '';
+    position: absolute;
+    background: url(../img/metro.svg) no-repeat;
+    top:0;
+    left: 45px;
+    width: 20px;
+    height: 20px;
+}
+
+.p_priem {
+    position: relative;
+    background: none;
+    font-family: 'ProximaNova';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+    padding: 0px 0px 30px 85px;
+}
+
+.p_priem::after {
+    content: '';
+    position: absolute;
+    background: url(../img/priem.svg) no-repeat;
+    top:0;
+    left: 45px;
+    width: 20px;
+    height: 20px;
+}
+
+.button_maps {
+    font-family: 'ProximaNova';
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 140%;
+    color: #018ABE;
+    background: #fff;
+    padding: 9px 15px;
+    border: 0;
+    border-radius: 3px;
+    margin:0px 0px 35px 45px ;
+    cursor:pointer;
+}
+
+/* blok_maps  */
+/* p_footer */
+
+.p_footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.foot_left {
+    font-family: 'ProximaNova';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+}
+
+.foot {
+    font-family: 'ProximaNova';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 135%;
 }
