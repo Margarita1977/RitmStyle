@@ -1,0 +1,406 @@
+/* promo  */
+
+.promo {
+    text-align: center;
+    background: url(../img/promo.svg) no-repeat;
+    padding-top: 156px;
+    padding-bottom: 231px;
+ }
+ 
+ .p_promo {
+     font-family: 'ElMessiri-bold';
+     font-size: 24px;
+     line-height: 140%;
+     background: none;
+ }
+ 
+ .h1_promo {
+     font-family: 'ElMessiri-bold';
+     font-size: 64px;
+     line-height: 140%;
+     background: none;
+ }
+ 
+ /* promo  */
+ /* seans */
+ 
+ .seansi {
+     position: relative;
+     cursor: pointer;
+ }
+ 
+ .seansi::after {
+     opacity: 0;
+     content: '';
+     position: absolute;
+     height: 10px;
+     width: 100%;
+     background: #018ABE;
+     transition: 0.6s;
+     bottom: 5px;
+     left: 0;
+     border-radius: 0 0 15px 15px;
+ }
+ 
+ .seansi:hover::after {
+     opacity: 1;
+ }
+ 
+ 
+ .seans {
+     margin-top: 150px;
+     margin-bottom: 150px;
+ }
+ 
+ .sea {
+     background: #018ABE;
+     margin: 0;
+ }
+ 
+ .p_zagalovok {
+     font-family: 'ElMessiri-bold';
+     font-size: 42px;
+     line-height: 140%;
+     padding: 0 45px;
+ }
+ 
+ /* .cerviss  */
+ 
+ .cerviss {
+     margin-top: 100px;
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .cervis_odin {
+     position: relative;
+ }
+ 
+ .p_cervis {
+     position: absolute;
+     left: 50px;
+     bottom: 43px;
+     background: none;
+     font-family: 'ElMessiri-bold';
+     font-size: 24px;
+     line-height: 140%;
+ }
+ 
+ .p_cervis_dva {
+     position: absolute;
+     left: 20px;
+     bottom: 30px;
+     background: none;
+     font-family: 'ElMessiri-bold';
+     font-size: 24px;
+     line-height: 140%;
+ }
+ 
+ .verch {
+     margin-bottom: 20px;
+ }
+ 
+ /* seans */
+ 
+ /* comments */
+ 
+ .comments {
+     margin-bottom: 150px;
+ }
+ 
+ .content {
+    max-width: 1736px;
+    margin: auto;
+ }
+ 
+ .cards {
+     margin-top: 100px;
+     margin-bottom: 60px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     
+     
+ }
+ 
+ .card {
+     padding: 40px 45px 71px 45px;
+     background: #018ABE;
+     border-radius: 10px;
+     opacity: 0.4;
+ }
+ 
+ .h3_card {
+     background: none;
+     padding-bottom: 15px;
+     font-family: 'ProximaNova';
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 140%;
+ }
+ 
+ .p_card {
+     max-width: 410px;
+     background: none;
+     font-family: 'ProximaNova';
+     font-weight: 300;
+     font-size: 10px;
+     line-height: 140%;
+ }
+ 
+ /* card_center */
+ .card_center {
+     padding: 50px 60px 56px 60px;
+     background: #018ABE;
+     border-radius: 10px;
+ }
+ 
+ .h3_cardc {
+     background: none;
+     padding-bottom: 15px;
+     font-family: 'ProximaNova';
+     font-weight: 700;
+     font-size: 20px;
+     line-height: 140%;
+ }
+ 
+ .p_cardc {
+     max-width: 516px;
+     background: none;
+     font-family: 'ProximaNova';
+     font-weight: 300;
+     font-size: 14px;
+     line-height: 140%;
+ }
+ 
+ /* tochka */
+ 
+ .slaid {
+     
+     display: flex;
+     justify-content: space-between;
+     max-width: 124px;
+     margin: auto;
+ }
+ 
+ .tochka {
+     width: 16px;
+     height: 16px;
+     background: #FFFFFF;
+     opacity: 0.4;
+     border-radius: 3px;
+ }
+ 
+ .svet {
+     opacity: 1;
+ }
+ 
+ /* comments */
+ /* style  */
+ 
+ .style {
+     margin-bottom: 150px;
+ }
+ 
+ .style_odin {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     max-width: 1076px;
+     margin: auto;
+     margin-top: 100px;
+ }
+ 
+ .text_style {
+     max-width: 466px;
+    
+ }
+ 
+ .title_style {
+     font-family: 'ProximaNova';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 24px;
+     line-height: 140%;
+     margin-bottom: 30px;
+ }
+ 
+ .p_style {
+     font-family: 'ProximaNova';
+     font-style: normal;
+     font-weight: 300;
+     font-size: 16px;
+     line-height: 140%;
+ }
+ 
+ .img_style {
+     height: 365px;
+     width: 526px;
+ }
+ 
+ /* style  */
+ /* price  */
+ 
+ .price {
+     margin-bottom: 150px;
+ }
+ 
+ .price_blok {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     max-width: 1076px;
+     margin: auto;
+     margin-top: 100px;
+ }
+ 
+ .price_mini {
+     display: flex;
+     justify-content: space-between;
+     padding-bottom: 30px;
+ }
+ 
+ .price_minip {
+     position: relative;
+     width: 268px;
+     padding-left: 30px;
+     padding-right: 25px;
+     font-family: 'ProximaNova';
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 140%;
+ }
+ 
+ 
+ .price_minip::after {
+     content: '';
+     position: absolute;
+     left: 0;
+     width: 18px;
+     height: 9px;
+     background: #018ABE;
+     border-radius: 0px 50px;
+ }
+ 
+ .span {
+     font-family: 'ElMessiri-bold';
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 140%;
+ }
+ 
+ .p_img {
+     font-family: 'ElMessiri-bold';
+     font-weight: 700;
+     font-size: 21px;
+     line-height: 140%;
+     text-align: center;   
+     padding-top: 30px; 
+ }
+ 
+ /* price  */
+ /* blok_maps  */
+ 
+ .blok_maps {
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 90px;
+ }
+ 
+ .blok_map {
+     background: #018ABE;
+     border-radius: 10px;  
+     width: 392px;
+     margin-bottom: 30px;
+ }
+ 
+ .blok_map_niz {
+     background: #018ABE;
+     border-radius: 10px;  
+     width: 392px;
+ }
+ 
+ .h4_map {
+     background: none;
+     font-family: 'ElMessiri-bold';
+     font-weight: 700;
+     font-size: 24px;
+     line-height: 140%;
+     padding: 35px 0px 21px 45px;
+ }
+ 
+ .p_tochka_map {
+     position: relative;
+     background: none;
+     font-family: 'ProximaNova';
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 135%;
+     padding: 0px 0px 21px 85px;
+ }
+ 
+ .p_tochka_map::after {
+     content: '';
+     position: absolute;
+     background: url(../img/tochka.svg) no-repeat;
+     top:0;
+     left: 45px;
+     width: 20px;
+     height: 20px;
+ }
+ 
+ .p_metro {
+     position: relative;
+     background: none;
+     font-family: 'ProximaNova';
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 135%;
+     padding: 0px 0px 21px 85px;
+ }
+ 
+ .p_metro::after {
+     content: '';
+     position: absolute;
+     background: url(../img/metro.svg) no-repeat;
+     top:0;
+     left: 45px;
+     width: 20px;
+     height: 20px;
+ }
+ 
+ .p_priem {
+     position: relative;
+     background: none;
+     font-family: 'ProximaNova';
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 135%;
+     padding: 0px 0px 30px 85px;
+ }
+ 
+ .p_priem::after {
+     content: '';
+     position: absolute;
+     background: url(../img/priem.svg) no-repeat;
+     top:0;
+     left: 45px;
+     width: 20px;
+     height: 20px;
+ }
+ 
+ .button_maps {
+     font-family: 'ProximaNova';
+     font-weight: 600;
+     font-size: 13px;
+     line-height: 140%;
+     color: #018ABE;
+     background: #fff;
+     padding: 9px 15px;
+     border: 0;
+     border-radius: 3px;
+     margin:0px 0px 35px 45px ;
+     cursor:pointer;
+ }
+ 
+ /* blok_maps  */

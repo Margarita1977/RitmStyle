@@ -1,0 +1,74 @@
+/* seans */
+
+.nav {
+    margin-bottom: 30px;
+}
+ 
+.seansi {
+    position: relative;
+    cursor: pointer;
+}
+
+.seansi::after {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: '13.02.2022';
+    position: absolute;
+    height: 10px;
+    width: 100%;
+    background: #018ABE;
+    top: 30px;
+    left: 35px;
+    border-radius: 5px;
+    width: 96px;
+    height: 30px;   
+}
+
+
+
+.seans {
+    border-top: 1px solid #ffffff81;
+    border-bottom: 1px solid #ffffff81;
+    padding-top: 60px;
+    padding-bottom: 120px;
+    margin-bottom: 30px;
+}
+
+.sea {
+    background: #018ABE;
+    margin: 0;
+}
+
+.p_zagalovok {
+    font-family: 'ElMessiri-bold';
+    font-size: 42px;
+    line-height: 140%;
+    padding: 0 45px;
+}
+
+/* .cerviss  */
+
+.cerviss {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.p_cervis_dva {
+    position: absolute;
+    left: 35px;
+    bottom: 30px;
+    background: none;
+    font-family: 'ElMessiri-bold';
+    font-size: 24px;
+    line-height: 140%;
+}
+
+.verch {
+    margin-bottom: 20px;
+}
+
+/* seans */
