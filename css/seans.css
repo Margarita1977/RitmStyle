@@ -1,0 +1,24 @@
+.nav {
+    margin-bottom: 30px;
+}
+
+.seans {
+    border-top: 1px solid #ffffff81;
+    border-bottom: 1px solid #ffffff81;
+    padding-top: 60px;
+    padding-bottom: 120px;
+    margin-bottom: 30px;
+}
+
+.sea {
+    background: #018ABE;
+    margin: 0;
+}
+
+.p_zagalovok {
+    font-family: 'ElMessiri-bold';
+    font-size: 42px;
+    line-height: 140%;
+    padding: 0 45px;
+}
+
