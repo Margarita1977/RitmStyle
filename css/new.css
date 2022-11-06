@@ -10,19 +10,22 @@
 }
 
 .seansi::after {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
     content: '13.02.2022';
     position: absolute;
-    height: 10px;
-    width: 100%;
-    background: #018ABE;
+    width: 96px;
+    height: 30px;
     top: 30px;
     left: 35px;
     border-radius: 5px;
-    width: 96px;
-    height: 30px;   
+    background: #018ABE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'ProximaNova';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 135%;   
 }
 
 

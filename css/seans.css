@@ -6,7 +6,7 @@
     border-top: 1px solid #ffffff81;
     border-bottom: 1px solid #ffffff81;
     padding-top: 60px;
-    padding-bottom: 120px;
+    padding-bottom: 161px;
     margin-bottom: 30px;
 }
 
@@ -21,4 +21,59 @@
     line-height: 140%;
     padding: 0 45px;
 }
+
+/* style  */
+
+
+
+.style_odin {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.style_odin::after {
+    content: '13.02.2022';
+    position: absolute;
+    width: 96px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    background: #018ABE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'ProximaNova';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 135%; 
+}
+
+.text_style {
+    max-width: 526px;
+    margin-top: 45px;
+}
+
+.title_style {
+    font-family: 'ProximaNova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    margin-bottom: 30px;
+}
+
+.p_style {
+    font-family: 'ProximaNova';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+
+/* style  */
 
