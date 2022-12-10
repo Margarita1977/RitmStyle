@@ -70,6 +70,7 @@
      margin-top: 100px;
      display: flex;
      justify-content: space-between;
+     flex-wrap: wrap;
  }
  
  .cervis_odin {
@@ -118,9 +119,8 @@
      margin-bottom: 60px;
      display: flex;
      justify-content: space-between;
-     align-items: center;
-     
-     
+     flex-wrap: wrap;
+     align-items: center;  
  }
  
  .card {
@@ -205,6 +205,7 @@
  .style_odin {
      display: flex;
      justify-content: space-between;
+     flex-wrap: wrap;
      align-items: center;
      max-width: 1076px;
      margin: auto;
@@ -248,6 +249,7 @@
  .price_blok {
      display: flex;
      justify-content: space-between;
+     flex-wrap: wrap;
      align-items: center;
      max-width: 1076px;
      margin: auto;
@@ -305,6 +307,7 @@
      display: flex;
      justify-content: space-between;
      margin-bottom: 90px;
+     flex-wrap: wrap;
  }
  
  .blok_map {

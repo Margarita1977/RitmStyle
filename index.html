@@ -8,12 +8,13 @@
     <link rel="icon" href="./img/logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/adaptiv.css">
     <title>RitmStyle</title>
 </head>
 <body>
     <header>
         <div class="nav container">
-            <img src="./img/logo.svg" alt="logo">
+            <img class="logo" src="./img/logo.svg" alt="logo">
             <div class="nav_link">
                 <a href="./index.html" class="a_nav">Главная</a>
                 <a href="./seans.html" class="a_nav">Сеансы</a>
@@ -25,6 +26,12 @@
             </div>
             <!-- nav_link  -->
             <button class=" button">Записаться на сеанс</button>
+            <div class="burger">
+                <div class="burger_mini"></div>
+                <div class="burger_mini"></div>
+                <div class="burger_mini"></div>
+            </div>
+            <!-- /.burger -->
         </div>
         <!-- nav  -->
     </header>
@@ -36,8 +43,10 @@
         </div>
         <h1 class="h1_promo">Акватерапия <br>
             RitmStyle</h1>
+            
     </div>
     <!-- /.promo -->
+    <button class=" buttonn">Записаться на сеанс</button>
     <div class="seans container">
         <div class="zagagyli">
             <div class="zagagyl_left sea"></div>
@@ -47,30 +56,30 @@
         <!-- zagagyli -->
         <div class="cerviss">
             <div class="cervis_odin seansi">
-                <img src="./img/cervis.svg" alt="cervis">
+                <img class="img_seans" src="./img/cervis.svg" alt="cervis">
                 <div class="p_cervis">Стандартный RitmStyle</div>
             </div>
             <!-- cervis_odin -->
             <div class="cervis_dva ">
                 <div class="cervis_odin verch seansi">
-                    <img src="./img/cervis_dva.svg" alt="cervis">
+                    <img class="img_seans" src="./img/cervis_dva.svg" alt="cervis">
                     <div class="p_cervis_dva">RitmStyle для пар</div>
                 </div>
                 <div class="cervis_odin seansi">
-                    <img src="./img/cervis_dva.svg" alt="cervis">
+                    <img class="img_seans" src="./img/cervis_dva.svg" alt="cervis">
                     <div class="p_cervis_dva ">RitmStyle для беременных</div>
                 </div>
             </div>
             <!-- cervis_dva -->
             <div class="cervis_dva ">
                 <div class="cervis_odin verch seansi">
-                    <img src="./img/cervis_dva.svg" alt="cervis">
+                    <img class="img_seans" src="./img/cervis_dva.svg" alt="cervis">
                     <div class="p_cervis_dva">RitmStyle с полным
                         <br> погружением под воду
                     </div>
                 </div>
                 <div class="cervis_odin seansi">
-                    <img src="./img/cervis_dva.svg" alt="cervis">
+                    <img class="img_seans" src="./img/cervis_dva.svg" alt="cervis">
                     <div class="p_cervis_dva ">RitmStyle + красочная
                         <br> подводная фотосессия
                     </div>
@@ -148,11 +157,11 @@
                     augue massa. Egestas molestie lobortis rhoncus, elit nulla nisl. Habitant tortor at tempor.</p>
             </div>
             <!-- text_style -->
-            <img class="img_style" src="./img/style.svg" alt="style">
+            <img class="img_stylele" src="./img/style.svg" alt="style">
         </div>
         <!-- /.style_odin -->
         <div class="style_odin">
-            <img src="./img/style.svg" alt="style">
+            <img class="img_style" src="./img/style.svg" alt="style">
             <div class="text_style">
                 <p class="title_style">RitmStyle гидротерапия </p>
                 <p class="p_style">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu cras quis ac a non ut
@@ -203,7 +212,7 @@
             </div>
             <!-- /.price_text -->
             <div class="price_blok_img">
-                <img src="./img/price.svg" alt="price">
+                <img class="img_price" src="./img/price.svg" alt="price">
                 <p class="p_img">Подарочный сертификат </p>
             </div>
         </div>
@@ -215,7 +224,7 @@
             <aside id="CONTACT"  class="map">
                 <iframe
                     src="https://yandex.ru/map-widget/v1/?um=constructor%3A9099223f991e672c7af157534d28627a3fabf7e6dae6d6987de137a61ae32d37&amp;source=constructor"
-                    width="856" ; height="604" frameborder="0"></iframe>
+                    width="856" ; height="604" class="carta" frameborder="0"></iframe>
             </aside>
             <div class="blok_maps_card">
                 <div class="blok_map">

@@ -1,11 +1,12 @@
 @import url(../css/fonts.css);
 
+
 * {
     margin: 0;
     padding: 0;
     background-color: #162831;
     color: #fff;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; /* плавная прокрутка */
 }
 
 .container {
@@ -49,6 +50,10 @@
     font-size: 13px;
     line-height: 140%;
     cursor: pointer;
+}
+
+.buttonn  {
+    display: none;
 }
 
 /* nav  */
